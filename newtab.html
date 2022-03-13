@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>New Tab</title>
+    <link rel="stylesheet" href="addingContainer.css" />
+    <link rel="stylesheet" href="tabstyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div id="root">
+        <div id="add-background-container">
+            <div id="shortcut-button-container"><button class="add-shortcut-button"><img
+                        src="./defaultImages/pencil.svg"></img></button><label class="button-label"
+                    for="add-shortcut-button">Add new background</label></div>
+        </div>
+        <div id="logo-container"><img src="./defaultImages/logo.svg"></img></div>
+        <div id="inputWrapper">
+            <form id="input-form" action="http://google.com/search">
+                <input name="q" id="google-search-input" type="search" autocomplete="off" spellcheck="false" role="combobox"
+                    placeholder="Search Google or type a URL" aria-live="polite">
+            </form>
+            <img id="search-icon" src="./defaultImages/search.svg"></img>
+        </div>
+    </div>
+</body>
+<script src="./handleAddBackground.js"></script>
+
+</html>
